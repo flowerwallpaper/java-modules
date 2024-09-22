@@ -12,8 +12,8 @@ Print a global greeting to the console. Then use input and message dialogs to jo
 ## Steps:
 
 1. Create a new class called Greeter.
-2. Add a main method. Eclipse has a helpful schortcut - main
-3. Print "Hello World!" to the console. Eclipse has a helpful schortcut - syso
+2. Add a main method. Eclipse has a helpful shortcut - main
+3. Print "Hello World!" to the console. Eclipse has a helpful shortcut - syso
 4. Now ask the user for their name. The code looks like this:
 ```
 

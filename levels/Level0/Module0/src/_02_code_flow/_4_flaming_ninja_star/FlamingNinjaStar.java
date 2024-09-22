@@ -11,12 +11,21 @@ public class FlamingNinjaStar {
 		
 		// Make a new robot, and set it's pen down.
 
+		Robot rob = new Robot();
+		rob.penDown();
+		rob.setPenColor(Color.pink);
+
 		// Set the robot speed to 100
+		rob.setSpeed(100);
 		
 		// Set the robot window size to 800 x 800
 
+		rob.setWindowSize(800,800);
+
 		//  COUNT. Make another int variable to count how many times the loop has repeated
 		//         Set its start value to zero.
+
+		int count = 0;
 		
 	       //  LOOP. Start a while loop to repeat all of the code below ONE time (we will change this later)
 
@@ -37,6 +46,28 @@ public class FlamingNinjaStar {
 				// MOVE         Move the robot the distance in the variable baseSize
 		
 				//  INCREASE COUNT. Increase the count by 1
+
+		while (count < 25){
+
+			rob.setPenColor(Color.magenta);
+
+
+			rob.turn(360/8);
+			rob.move(64);
+
+			rob.turn(-40);
+			rob.setPenColor(Color.cyan);
+			rob.move(flameSize);
+			rob.turn(170);
+			rob.move(flameSize);
+			rob.turn(64);
+
+			rob.setPenColor(Color.magenta);
+
+			rob.move(baseSize);
+			count ++;
+
+		}
 		
 		//  End the while loop here
 		
