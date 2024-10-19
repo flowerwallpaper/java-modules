@@ -20,7 +20,7 @@ public class FlamingNinjaStar {
 		
 		// Set the robot window size to 800 x 800
 
-		rob.setWindowSize(800,800);
+		Robot.setWindowSize(800,800);
 
 		//  COUNT. Make another int variable to count how many times the loop has repeated
 		//         Set its start value to zero.
